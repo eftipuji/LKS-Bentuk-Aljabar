@@ -1,10 +1,3 @@
-Tentu, sebagai ahli pengembangan media pembelajaran matematika, saya akan membantu Anda menyusun kode Python menggunakan **Streamlit** untuk materi **Bentuk Aljabar** kelas 7. 
-
-Kode ini dirancang agar selaras dengan struktur "Jelajah" yang telah Anda buat sebelumnya, dengan mengintegrasikan materi dari buku teks seperti **unsur-unsur aljabar (variabel, koefisien, konstanta)**, **substitusi nilai**, dan **operasi aljabar**.
-
-Berikut adalah kode lengkap yang dapat Anda unggah ke GitHub:
-
-```python
 import streamlit as st
 import sympy as sp # Library untuk manipulasi aljabar simbolik
 
@@ -163,11 +156,3 @@ st.markdown("---")
 st.markdown("<center><small>Jelajah Matematika VII | Dikembangkan dengan Streamlit & Sympy</small></center>", unsafe_allow_html=True)
 ```
 
-### Penjelasan Singkat Fitur:
-1.  **Library `sympy`**: Saya menambahkan `sympy` karena sangat kuat untuk menangani aljabar secara simbolik (menyederhanakan, menjabarkan, dan substitusi) sehingga hasilnya akurat sesuai kaidah matematika.
-2.  **Unsur Aljabar (KP 1)**: Memungkinkan siswa memasukkan bentuk apa pun dan aplikasi akan memisahkan koefisien dan konstanta secara otomatis sesuai definisi di sumber.
-3.  **Substitusi (KP 2)**: Membantu siswa memahami proses mengganti variabel dengan angka.
-4.  **Operasi (KP 3)**: Mendukung penyederhanaan suku sejenis dan penjabaran distributif seperti contoh $3(x+2) = 3x+6$ dalam buku.
-5.  **Latihan (Evaluasi)**: Saya menyertakan salah satu soal uraian dari LKS Anda mengenai nilai substitusi $a$ dan $b$ sebagai fitur interaktif.
-
-Anda bisa menyimpan kode ini sebagai file `app.py` dan menghubungkannya ke repositori GitHub untuk dijalankan di **Streamlit Community Cloud**.
