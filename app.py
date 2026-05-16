@@ -165,5 +165,5 @@ elif tab_choice == "📝 Latihan Mandiri":
 ### ─────────────────────────────────────────
 st.markdown("---")
 st.markdown("<center><small>Jelajah Matematika VII | Streamlit & SymPy Implementation</small></center>", unsafe_allow_html=True)
-```
+
 
